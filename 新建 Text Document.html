@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>龚振-简历</title>
+    <style>
+        * {box-sizing: border-box; margin: 0; font-family: 'Segoe UI',sans-serif;}
+        body {background: #fafafa; color: #333;}
+        .resume {
+            max-width: 800px; margin: 20px auto; background: white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            padding: 30px;
+        }
+
+        /* 头部样式 */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        } 
+
+        .info {
+            flex-grow: 1;
+        }
+        h1 { 
+            color: rgb(55,71,79);
+            margin-bottom:5px;
+            font-weight:500;
+        }
+        .position {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        .contact {
+            margin-top: 5px;
+            color: #666;
+        }
+
+        /* 内容部分 */
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom:5px;
+            margin:20px 0 15px;
+        }
+        ul {
+            list-style: none;
+            padding:0;
+        }
+        li {
+            margin:10px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius:5px;
+        }
+
+        /* 响应式设计 */
+        @media(max-width:768px){
+            .resume {margin:10px;}
+        }
+    </style>
+</head>
+<body>
+    <article class="resume">
+
+        <!-- 头部 -->
+        <header>
+            <img src="./portrait.jpg" alt="头像" class="avatar">
+            <div class="info">
+                <h1>龚振</h1>
+                <p class="position">清华大学电机系博士后</p>
+                <div class="contact">
+                    📞 18771113515<br>
+                    ✉️ gongzhen@tsinghua.edu.cn
+                </div>
+            </div>
+        </header>
+
+        <!-- 教育经历 -->
+        <section>
+            <h2>🧑🎓 教育背景</h2>
+            <ul>
+                <li><strong>清华大学</strong>（2023-今）博士后</li>
+                <li><strong>武汉大学</strong>（2019-2023）博士</li>
+            </ul>
+        </section>
+
+        <!-- 工作经历 -->
+        <section>
+            <h2>💼 工作经历</h2>
+            <ul>
+                <li>清华大学（2023-今）博士后/助理研究员</li>
+                <li>奥尔堡大学访问学者（2022）</li>
+            </ul>
+        </section>
+
+        <!-- 科研成果 -->
+        <section>
+            <h2>📖 研究成果</h3>
+            <ul>
+                <li>多篇SCI一区论文</li>
+                <li>IEEE最佳论文奖</li>
+            </ul>
+        </script>
+</body>
+</html>
